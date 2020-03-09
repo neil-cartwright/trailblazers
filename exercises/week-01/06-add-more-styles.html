@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Your name goes here">
+  <title>More Styles</title>
+
+  <style>
+    /* this is CSS or 'Cascading Style Sheets' */
+    /* css comments look like this */
+
+
+    /* make the heading bigger by giving it a font-size:24pt; */
+    /* center it with text-align:center; */
+    /* underline it with text-decoration:underline; */
+
+    #heading {
+
+      font-family:'comic sans ms', sans-serif;
+
+    }
+
+  </style>
+
+</head>
+<body>
+  <h1 id="heading">Hello World</h1>
+
+  <script>
+    var heading = document.getElementById('heading');
+
+    heading.addEventListener('mouseover', function() {
+      this.style.color = 'blue';
+    });
+
+    heading.addEventListener('mouseout', function() {
+      this.style.color = 'orange';
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Your name goes here">
+  <title>Final version</title>
+
+  <style>/* css style sheet */
+
+    body {
+      font-family:'comic sans ms', sans-serif;
+      /* by setting the width and margin you can center all content */
+      width:600px;
+      margin:auto;
+    }
+
+    #heading {
+      font-size:24pt;
+      text-align:center;
+      text-decoration:underline;
+    }
+
+    .para {
+      font-size:12pt;
+    }
+
+    .green {
+      color:green;
+    }
+  </style>
+
+</head>
+<body>
+  <h1 id="heading">Hello World</h1>
+
+  <p class="para">My Name is Mr Cartwright and my favourite colour is <span class="green">green</span></p>
+
+
+<script>
+  var heading = document.getElementById('heading');
+  heading.addEventListener('mouseover', function() {
+    this.style.color = 'blue';
+  });
+  heading.addEventListener('mouseout', function() {
+    this.style.color = 'orange';
+  });
+</script>
+</body>
+</html>

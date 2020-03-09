@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Red Hill Trailblazers | Week 5 Coding Exercises</title>
+  <script src="../../jQuery/jquery.js"></script>
+  <script src="../../javascript/week-5.js"></script>
+
+  <style>
+    html, body {
+      box-sizing:border-box;
+    }
+    body {
+      font-family:'comic sans ms', 'arial', sans-serif;
+      max-width:100%;
+      margin:0 auto;
+      padding-bottom:100px;
+      padding-left:10%;
+      padding-right:10%;
+    }
+
+    h1, h2, h3 {
+      text-align:center;
+    }
+    h2 {
+      padding:1em;
+    }
+    .panel {
+      padding:1em;
+      border:1px solid #bbb;
+      transition:all .5s ease-in-out;
+      position:relative;
+      background:#f8f8f8;
+      min-height:50vh;
+    }
+    .number {
+      width:30px;
+      height:30px;
+      border:2px solid black;
+      display:inline-block;
+      color:black;
+      background:red;
+      text-align:center;
+      line-height:30px;
+      transition:all 1s;
+      z-index:10;
+      transform:translate(-32px, -32px);
+    }
+    .number.completed {
+      background:gold;
+      transform:scale(1.5) translate(10px, 10px);
+      border-radius:50%;
+    }
+    input, button, select {
+      font-family:'Lucida Sans Typewriter', 'courier', monospace;
+      padding:1em;
+      margin:1em;
+    }
+
+    input {
+      width:50%;
+      font-family:'courier new', monospace;
+      background:white;
+    }
+    input[type="checkbox"] {
+      font-family:'courier new', monospace;
+      width:30px;
+      height:30px;
+      color:green;
+    }
+
+    hr {
+
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+    }
+    .tip {
+      color:blue;
+      text-align:center;
+    }
+    .correct {
+      color:green;
+      text-align:center;
+    }
+    .output-2 {
+      color:red;
+      text-align:center;
+    }
+    .incorrect {
+      color:red;
+      text-align:center;
+    }
+    .correctly-answered {
+      border:2px solid green;
+    }
+    .panel.correctly-answered::after {
+     box-sizing:border-box;
+      content: 'Completed. Well Done!';
+      color:green;
+      padding:1em;
+      margin:1em 0;
+      display:inline-block;
+      width:100%;
+      text-align:center;
+    }
+    .incorrectly-answered {
+      border:2px solid red;
+    }
+    .panel.grow {
+      transform:scale(1.02);
+      box-shadow:3px 3px 3px 3px #bbb;
+      background:#f1f1f1;
+      z-index:100;
+    }
+    .panel h2 {
+      transition:all 1s;
+    }
+    .panel.grow h2 {
+      text-decoration:underline;
+      transform:rotateX(360deg);
+    }
+    .panel.correctly-answered {
+      }
+    .panel.incorrectly-answered {
+      transform:rotateY(360deg);
+    }
+
+    .help {
+        display:none;
+        width:80%;
+        margin:0 auto;
+        padding:1em;
+    }
+    code {
+      font-family:'courier  new', monospace;
+      background-color:white;
+      padding:3px;
+      color:green;
+    }
+    .score {
+      display:none;
+      position:fixed;
+      top:10px;
+      left:10px;
+      background:yellow;
+      padding:1em;
+      z-index:1000;
+    }
+    .q6-image {
+      text-align:center;
+    }
+    .q6-image img {
+      width:150px;
+      height:150px;
+      bottom:1em;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .box {
+      width:150px;
+      height:150px;
+      background:yellow;
+      margin:0 auto;
+      cursor:pointer;
+    }
+    .box.active:hover {
+      background-color:blue;
+    }
+    .box>p {
+      text-align:center;
+      width:100%;
+    }
+    button:disabled {
+      text-decoration:line-through;
+    }
+    .my-box {
+      border-radius:50%;
+      width:200px;
+      height:200px;
+      background:red;
+      margin:0 auto;
+      transition:all 10s;
+      transform:scale(1.5) translate(100px) rotateZ(360deg) rotateY(360deg);
+      transform-origin:right bottom;
+      opacity:0.8;
+    }
+    .my-new-box {
+      background-image:url('../../images/pirate.png');
+      background-size:contain;
+      background-repeat:no-repeat;
+      background-color:transparent;
+      position:relative;
+      width:300px;
+      height:300px;
+    }
+    .my-new-box>p {
+      /* these rules affect 'aaargh me hearties' */
+      position:absolute;
+      left:38px;
+      top:5px;
+      font-size:8pt;
+    }
+    .my-click-box {
+      background:yellow;
+      display:flex;
+      align-items:center;
+    }
+    .my-click-box>p {
+      text-align:center;
+      width:100%;
+    }
+    .console {
+      text-align:center;
+      padding:1em;
+    }
+    .console img {
+      width:80%;
+    }
+    .red {
+      color:red;
+    }
+    .identification-area {
+      text-align:center;
+      margin-top:3em;
+      margin-bottom:3em;
+    }
+
+    ul {
+      padding:0;
+      list-style:none;
+    }
+    li>ul {
+      font-size:10pt;
+      display:none;
+      width:100%;
+      margin:0;
+/*      transition:all 1s;
+*/    }
+    li>ul li a {
+      margin-bottom:1px;
+    }
+    li>ul li a:hover {
+      text-decoration:underline;
+      border-left:5px solid orange;
+    }
+    ul li {
+      margin:1px 0;
+      text-align:center;
+    }
+    ul li a {
+      text-decoration:none;
+      display:block;
+      padding:1em;
+      margin:0;
+      border-bottom:1px solid #eee;
+    }
+    ul li a:hover {
+      cursor:pointer;
+      color:orange;
+    }
+    ul li:hover ul {
+/*      display:inline-block;
+*/    }
+    #css-link a, #html-link a, #javascript-link a {
+      color:white;
+    }
+    .menu-heading:hover {
+      color:white;
+    }
+    #html-link, #html {
+      background-color:green;
+      color:white;
+    }
+    #css-link, #css {
+      background-color:red;
+      color:white;
+    }
+    #javascript-link, #js {
+      background-color:blue;
+      color:white;
+    }
+    .thousand {
+      background:white;
+      display:inline-block;
+    }
+    .thousand::after {
+      content: '-';
+    }
+    .small {
+      text-align:center;
+      font-size:8pt;
+      margin-top:-20px;
+    }
+    .footer {
+      padding-top:1em;
+    }
+  </style>
+</head>
+<body>
+  <h1><span class="red">Red Hill</span> Trailblazers</h1>
+  <p class="small">This app works best in google chrome.</p>
+<h2>Final Week Coding Exercises</h2>
+  <div class="score">You have successfully completed <span id="score">0</span> out of <span id="score-length"></span> exercises</div>
+
+  <div class="identification-area">
+    <div class="name-save">
+      <label for="name">Name: </label><input type="text" id="name"><button id="save-name">Save</button>
+    </div>
+    <p id="welcome-back"></p>
+  </div>
+
+  <p>Please work through the following exercises. It doesn't matter which order you do the exercises in. The easiest ones are first.</p>
+  <p>Web developers are always making mistakes. It's how you learn. If things go bad, just refresh the browser and try, try again.</p>
+
+  <ul>
+    <li id="html-link"><a>Section 1: HTML</a>
+      <ul>
+        <li><a href="#q1-panel">html tags - 3 mins</a></li>
+        <li><a href="#q2-panel">body tags - 3 mins</a></li>
+        <li><a href="#q3-panel">heading tags - 3 mins</a></li>
+        <li><a href="#q4-panel">style tags - 3 mins</a></li>
+        <li><a href="#q5-paenl">id attribute - 4 mins</a></li>
+        <li><a href="#q6-panel">img tags -4 mins</a></li>
+      </ul>
+    </li>
+    <li id="css-link"><a>Section 2: CSS</a>
+      <ul>
+        <li><a href="#q7-panel">style rules - 3 mins</a></li>
+        <li><a href="#q8-panel">:hover - 4 mins</a></li>
+        <li><a href="#q9-panel">classes - 3 mins</a></li>
+        <li><a href="#q10-panel">developer console - 15 mins</a></li>
+      </ul>
+
+    </li>
+    <li id="javascript-link"><a>Section 3: JavaScript</a>
+      <ul>
+        <li><a href="#q11-panel">script tags - 3 mins</a></li>
+        <li><a href="#q12-panel">variables - 8 mins</a></li>
+        <li><a href="#q13-panel">arrays - 8 mins</a></li>
+        <li><a href="#q14-panel">events - 8 mins</a></li>
+        <li><a href="#q15-panel">functions - 8 mins</a></li>
+        <li><a href="#q16-panel">loops - 10 mins</a></li>
+        <li><a href="#q17-panel">booleans - 5 mins</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <hr>
+
+  <!-- part one -->
+  <h2 id="html">Section One: HTML (Hyper Text Markup Language)</h2>
+
+  <div class="panel" id="q1-panel">
+    <h2>Exercise One | html tags</h2>
+    <p>Write an opening and closing html tag</p>
+    <input type="text">
+    <button id="q1" class="button">Check my code</button>
+    <button class="help-me">Help Me</button>
+    <div class="output"></div>
+    <p class="tip">Tip: Programmers usually write the opening and closing tags at the same time, and then put the cursor between them. This is so that they don't forget the closing tag.</p>
+    <div class="help">
+      <p>Your answer should look something like this:  <code>&lt;html&gt;&lt;/html&gt;</code>. Do not forget the forward slash in the closing tag.</p>
+      <p>This tag tells the browser to treat the code inside as html.</p>
+
+      <p>Find out more <a target="_blank" href="https://www.w3schools.com/tags/tag_html.asp">here</a></p>
+    </div>
+  </div>
+
+
+  <div class="panel" id="q2-panel">
+    <h2>Exercise Two | body tags</h2>
+    <p>Write an opening and closing body tag</p>
+    <input type="text">
+    <button id="q2" class="button">Check my code</button>
+    <button class="help-me">Help Me</button>
+
+    <div class="output"></div>
+    <div class="help">
+      <p>Your answer will look similar to the previous one. <code>&lt;body&gt;</code> tags enclose the section of the document which will be displayed to the user.</p>
+
+      <p>Find out more <a target="_blank" href="https://www.w3schools.com/tags/tag_html.asp">here</a></p>
+    </div>
+    <p class="tip">The body element comes after the closing <code>&lt;/head&gt;</code> tag.</p>
+  </div>
+
+  <div class="panel" id="q3-panel">
+    <h2>Exercise Three | heading tags</h2>
+    <p>Create an h1 element, <em>and write something inside the tags.</em></p>
+    <input type="text">
+    <button id="q3" class="button">Check my code</button>
+    <button class="help-me">Help Me</button>
+
+    <div class="output"></div>
+
+    <div class="help">
+      <p>Similar to the previous two answers. Don't forget to write a heading inside the tag.</p>
+
+      <p>Find out more <a target="_blank" href="https://www.w3schools.com/tags/tag_hn.asp">here</a></p>
+    </div>
+    <p class="tip">h1 is a 'level one heading' which is the main/strongest heading. Web search spiders crawl the internet and look at these headings in order to categorise sites for search engine retrieval.</p>
+  </div>
+
+  <div class="panel" id="q4-panel">
+    <h2>Exercise Four | style tags</h2>
+    <p>Write some style tags. In an html document these would live inside the <code>&lt;head&gt;&lt;/head&gt;</code> element. This is where your style rules will live.</p>
+    <input type="text">
+    <button id="q4" class="button">Check my code</button>
+    <button class="help-me">Help Me</button>
+
+    <div class="output"></div>
+
+    <div class="help">
+      <p><code>&lt;style&gt;/*Your styles go between these tags*/&lt;/style&gt;</code></p>
+
+      <p>Find out more <a target="_blank" href="https://www.w3schools.com/tags/tag_style.asp">here</a></p>
+    </div>
+    <p class="tip">Most websites actually use external style sheets, or <code>.css</code> files. These are then linked to in the head of the html document.</p>
+    <p class="tip">Websites can very quickly get too big to manage, so developers break up the code into small chunks.</p>
+
+  </div>
+
+
+<!-- five -->
+
+  <div class="panel" id="q5-panel">
+      <h2>Exercise Five | id attribute</h2>
+      <p>Give this <code>div</code> element an id of 'my-div'</p>
+      <input type="text" value="<div></div>">
+      <button id="q5" class="button">Check my code</button>
+      <button class="help-me">Help Me</button>
+      <div class="output"></div>
+      <p class="tip">An <code>id</code> must be exclusive. Elements must not share ids. We use ids to target elements with javascript. If you need your elements to share style rules you create a <code>class</code>.</p>
+
+      <div class="help">
+        <p>Place your id attribute inside the opening tag. It might look something like this: <code>&lt;div id="my-div"&gt;&lt;/div&gt;</code></p>
+      </div>
+    </div>
+
+    <!-- six -->
+    <div class="panel" id="q6-panel">
+      <h2>Exercise Six | &lt;img&gt; tags</h2>
+      <p>Change the code to change the picture.</p><p>You will need to identify a picture from the images directory, and change the filename. Getting file paths correct can be tricky. Look out for typos.</p>
+      <input type="text" value="<img src='../../images/beard.png'>" id="q6-image-input">
+      <button id="q6" class="button">Check my code</button>
+      <button class="help-me" id="q6-help">Help Me</button>
+      <div class="output"></div>
+      <div class="output-2"></div>
+
+
+      <div class="q6-image">
+
+      </div>
+      <p class="tip">Programming tip: In most browsers double tapping a word selects it.</p>
+
+
+      <div class="help">
+
+        <p>The default image is in the 'images' directory inside your 'trailblazers' directory. Look for another image inside the images folder and type the name of the image into the input field. Currently where it says <code>/images/filename.png</code>.</p>
+      </div>
+    </div><!-- panel -->
+
+    <hr>
+
+    <h2 id="css">Section Two: CSS (Cascading Style Sheets)</h2>
+    <div class="panel" id="q7-panel">
+      <h2>Exercise Seven | style rules {}</h2>
+      <p>Write a CSS style rule for a <code>p</code> tag which makes the color:green.</p>
+      <input type="text">
+      <button id="q7" class="button">Check my code</button>
+      <button class="help-me">Help Me</button>
+      <div class="output"></div>
+      <p class="tip">This <code>p</code> selector will target all paragraph tags in the document.</p>
+
+      <div class="help">
+        <p>A CSS code block looks like this: <br>
+        <br>
+         <code>
+          div { color: orange; }
+
+          </code>
+
+        <br>
+        <span>Don't forget the colon and semi-colon, opening and closing curly braces.</span>
+        </p>
+
+        <p>Find out more <a target="_blank" href="https://www.w3schools.com/css/default.asp">here</a></p>
+      </div>
+    </div><!-- seven -->
+
+    <!-- eight -->
+    <div class="panel" id="q8-panel">
+      <h2>Exercise Eight | :hover</h2>
+      <p>Give this <code>div</code> element a hover pseudo-class that makes the <code>background-color: blue;</code> Then check that the hover is working.</p>
+      <input type="text" value="div { background-color:blue; }">
+      <button id="q8" class="button">Check my code</button>
+      <button class="help-me">Help Me</button>
+      <div class="output"></div>
+
+      <div class="box">
+
+      </div>
+
+      <div class="help">
+        <p>Web developers and programmers look for solutions to problems on the internet. Have a look <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">here</a></p>
+      </div>
+    </div>
+      <!-- eight -->
+
+
+      <!-- nine -->
+      <div class="panel" id="q9-panel">
+        <h2>Exercise Nine | classes</h2>
+        <p>In the css styles for this web page, there are some style rules pre-written for the class of 'my-box'. Give this 'div' the class of 'my-box' and let's see what happens.</p>
+        <p><code>.my-box {<br>
+            border-radius:50%;<br>
+            width:200px;<br>
+            height:200px;<br>
+            background:red;<br>
+            margin:0 auto;<br>
+            transition:all 10s;<br>
+            transform:scale(1.5) translate(100px) rotateZ(360deg) rotateY(360deg);<br>
+            transform-origin:right bottom;<br>
+            opacity:0.8;<br>
+          }
+            </code>
+        </p>
+        <input type="text" value="<div></div>">
+        <button id="q9" class="button">Check my code</button>
+        <button class="help-me">Help Me</button>
+        <div class="output"></div>
+
+        <div class="box">
+          <p>Give me the class of 'my-box'</p>
+        </div>
+
+        <div class="help">
+          <p>Your code might look something like this: <code>&lt;div class="my-div"&gt;&lt;/div&gt;</code></p>
+          <p>Web developers and programmers look for solutions to problems on the internet. Have a look <a href="https://www.w3schools.com/tags/att_global_class.asp" target="_blank">here</a></p>
+        </div>
+      </div>
+        <!-- nine -->
+
+        <!-- ten -->
+        <div class="panel" id="q10-panel">
+          <h2>Exercise Ten | console</h2>
+          <p>There are two ways of displaying images on web pages. As well as using the <code>img</code> tag (as in exercise six) you can also give an element a <code>background-image</code> with css. We covered this in Trailblazers week three.</p>
+
+          <p>It is easier to overlay text in front of a background image.</p>
+          <p></p>
+
+          <p>Open the developers console. Right click on the text in this image (where it says 'Aargh me hearties').Then 'inspect element'. If right click does not work <code>ctrl + shift + i</code></p>
+          <p class="red">Using the developer's console, see if you can adjust the positioning and font-size of the text so that it fits inside of the speech bubble.</p>
+
+          <p>If you are <span class="red">super clever</span> you will be able to then find the style rule in this document's html code, edit it, and save the change permanently</p>
+          <div class="output"></div>
+
+          <div class="box my-new-box">
+            <p>Aargh<br>me<br>hearties</p>
+          </div>
+
+          <div class="console">
+            <h3>The developer console - looks like this: &darr; </h3>
+            <img src="../../images/console.png" alt="console">
+            <p>Here you can change the website non-destructively. This means that any changes you make will be lost after a page reload.</p>
+
+            <label for="q10">Check this box when you've completed the task.</label><input type="checkbox" id="q10">
+          </div>
+
+          <div class="help">
+            <p>Web developers and programmers look for solutions to problems on the internet. Have a look <a href="https://www.w3schools.com/tags/att_global_class.asp" target="_blank">here</a></p>
+          </div>
+        </div>
+          <!-- ten-->
+
+          <!-- section three -->
+
+
+        <hr>
+        <h2 id="js">Section Three | Javascript</h2>
+        <!-- eleven -->
+        <div class="panel" id="q11-panel">
+          <h2>Exercise Eleven | script tags</h2>
+          <p>You can include javascript programs into a web page by writing code inside <code>script</code> tags.</p>
+          <p>script tags can be placed anywhere in a web page but are generally either inside the head tags, or just above the closing body tag.</p>
+          <p>Write opening and closing script tags:</p>
+          <input type="text" value="">
+          <button id="q11" class="button">Check my code</button>
+          <button class="help-me">Help Me</button>
+          <div class="output"></div>
+
+
+
+          <div class="help">
+            <p>A small piece of javascript code might look like this:</p>
+            <p>&lt;script&gt;<br>var myScript = function() {<br>
+              // this is a code block<br>
+            }<br>&lt;/script&gt;</p>
+          </div>
+          </div>
+          <!-- eleven -->
+
+          <!-- twelve -->
+          <div class="panel" id="q12-panel">
+            <h2>Exercise Twelve | var </h2>
+            <p>A variable is a piece of data. You give a variable a name, and the computer stores the data in memory and remembers where it stored it.</p>
+            <p><code>var myData = 'Some Data'; </code></p>
+            <p>Inside the script tags create a variable (do not forget the 'var' keyword), give it a name and store some data in it.</p>
+            <input type="text" value="<script></script>">
+            <button id="q12" class="button">Check my code</button>
+            <button class="help-me">Help Me</button>
+            <div class="output"></div>
+
+            <div class="help">
+              <p>Web developers and programmers look for solutions to problems on the internet. Have a look <a href="https://www.w3schools.com/js/js_variables.asp" target="_blank">here</a></p>
+            </div>
+          </div>
+            <!-- twelve -->
+
+            <!-- thirteen -->
+            <div class="panel" id="q13-panel">
+              <h2>Exercise Thirteen | arrays </h2>
+              <p>An array is a collection, or group of data.</p>
+              <p><code>var myArray = ['red','yellow','green'];</code></p><p> An array is surrounded by square brackets <code>[]</code></p><p>Give this array three strings (strings are pieces of text), seperated by a comma.</p>
+              <p>Strings are surrounded my matching quotation marks.</p>
+              <input type="text" value="var myNewArray = [];">
+              <button id="q13" class="button">Check my code</button>
+              <button class="help-me">Help Me</button>
+              <div class="output"></div>
+
+
+              <div class="help">
+                <p>I have given this array three strings: <code>var myArray = ['one', 'two', 'three'];</code></a></p>
+              </div>
+            </div>
+              <!-- thirteen -->
+
+            <!-- fourteen -->
+            <div class="panel" id="q14-panel">
+              <h2>Exercise Fourteen | events</h2>
+              <p>You have seen the :hover event in CSS. However, with javascript you can make the web page come alive by reacting to mouse clicks, mouse-overs, scrolling, dragging etc.</p>
+              <p>Here is some javascript:<br><code>myBox.addEventListener('mouseover', function() {<br> // do something when event is triggered <br>}</code></p>
+              <p>Inside the event listener add a <code>'click'</code> event. Then test it on the yellow box</p>
+              <input type="text" value="myBox.addEventListener('');">
+              <button id="q14" class="button">Check my code</button>
+              <button class="help-me">Help Me</button>
+              <div class="output"></div>
+
+              <div class="box my-click-box">
+                <p>click me when you've finished your script</p>
+              </div>
+              <p class="tip">Note: Javascript is case sensitive. </p>
+
+              <div class="help">
+                <p>Web developers and programmers look for solutions to problems on the internet. Have a look <a href="https://www.w3schools.com/tags/att_global_class.asp" target="_blank">here</a></p>
+              </div>
+            </div>
+              <!-- fourteen -->
+
+              <!-- fifteen -->
+              <div class="panel" id="q15-panel">
+                <h2>Exercise Fifteen | functions</h2>
+
+                <p>A function is a piece of code waiting to be executed. You can write a function and store it in one file, then execute or 'call' it in another place. It is re-usable.</p><p> All programming languages have built in functions. We just used <code>addEventListener()</code> - This is a function.</p>
+                <p>A function is structured like this: <code>function myFunction() {}
+                </code></p>
+                <p>Create a function. Give it a name, some parentheses, and some curly braces.</p>
+                <input type="text" value="">
+                <button id="q15" class="button">Check my code</button>
+                <button class="help-me">Help Me</button>
+                <div class="output"></div>
+
+                <div class="help">
+                  <p>Your code might look something like this: <code>function doSomething() {}</code></p>
+                </div>
+              </div>
+                <!-- fifteen -->
+
+                <!-- sixteen -->
+                <div class="panel" id="q16-panel">
+                  <h2>Exercise Sixteen | loops</h2>
+                  <p>Computers are very good at doing boring things, like counting lots of numbers</p>
+                  <p>They use loops to iterate over items.</p>
+                  <p>The following code will print the numbers 0 - 100 and output it in the console (and also below).</p><p><code>for ( var i = 0; i =< <span class="red">100</span>; i++) {
+                    console.log(i);
+                  }
+                  </code></p>
+                  <p>Change the code so that it prints up to 1000, not 100.</p>
+                  <input type="text" value="for (var i = 0; i <= 100; i++) { console.log(i); }">
+                  <button id="q16" class="button">Check my code</button>
+                  <button class="help-me">Help Me</button>
+                  <div class="output"></div>
+
+
+                  <div class="help">
+                    <p>Web developers and programmers look for solutions to problems on the internet. Have a look <a href="https://www.w3schools.com/js/js_loop_for.asp" target="_blank">here</a></p>
+                  </div>
+                </div>
+                  <!-- sixteen -->
+
+
+
+              <!-- seventeen -->
+              <div class="panel" id="q17-panel">
+                <h2>Exercise Seventeen | Booleans</h2>
+                <p>A boolean is either true or false</p>
+                <p>Computers make decisions based on true or false values. True is 1. False is 0. </p>
+                <p>Other "falsy" values are NaN (This doesn't mean your nan, it means Not a Number), 'undefined' and null</p>
+                <p>Type a boolean into the input field which <span class="red">should equate to false</span>, and check it.</p>
+                <input type="text" value="">
+                <button id="q17" class="button">Check my code</button>
+                <button class="help-me">Help Me</button>
+                <div class="output"></div>
+
+
+                <div class="help">
+                  <p>All of the following are 'falsy values'</p><p>Null | NaN | undefined | false | 0 </p>
+                </div>
+              </div>
+
+                <!-- sixteen -->
+<hr>
+  <div class="footer">
+    <p>Red Hill Trailblazers | &copy;2018</p>
+  </div>
+</body>
+</html>

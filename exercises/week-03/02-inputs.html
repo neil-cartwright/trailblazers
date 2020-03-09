@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loops</title>
+
+  <!-- computers are great at doing boring things like printing out lots of numbers. For this we use loops -->
+  <style>
+    body {
+      background:#e6e6e6;
+      text-align:center;
+      font-family:'comic sans ms', script;
+    }
+    .myDiv {
+      width:800px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    .myDiv input {
+      padding:1em;
+      margin-bottom:1em;
+      width:250px;
+    }
+
+    #outputField {
+      color:orange;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Using input fields</h1>
+  <div class="myDiv">
+    <label for="numberSelect">Write something...</label>
+    <input type="text" id="myText">
+  </div>
+  <div id="outputField">
+  </div>
+
+
+  <script>
+    var inputField = document.getElementById('myText');
+    var outputField = document.getElementById('outputField');
+
+    // we are listening for the 'keyup' event on the input field.
+    inputField.addEventListener('keyup', function(){
+      outputField.innerHTML = inputField.value;
+    });
+
+    // try listening to a different event. You can choose from 'blur', 'keydown', 'change';
+  </script>
+</body>
+</html>

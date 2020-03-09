@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Your name goes here">
+  <title>Add some text</title>
+
+  <style>
+
+    /* secret comments inside a style sheet are different to html comments */
+
+    /* you target id attributes with a hash (#) */
+
+    #heading {
+      font-family:'comic sans ms', sans-serif;
+      font-size:24pt;
+      text-align:center;
+      text-decoration:underline;
+    }
+
+    /* you target class attributes with a dot (.) */
+
+    .para {
+      /* make it the same font as #heading */
+
+
+      /* make the text half as big */
+
+    }
+
+  </style>
+
+</head>
+<body>
+  <h1 id="heading">Hello World</h1>
+
+  <!-- 1. give your p tags a class="para" . Note: You only add the attribute to the opening tag  -->
+
+  <p>My Name is Mr Cartwright and my favourite colour is green</p>
+
+  <!-- 2. then go to your <style></style> section and declare some rules for .para {} -->
+
+
+<script>
+  var heading = document.getElementById('heading');
+  heading.addEventListener('mouseover', function() {
+    this.style.color = 'blue';
+  });
+  heading.addEventListener('mouseout', function() {
+    this.style.color = 'orange';
+  });
+</script>
+</body>
+</html>

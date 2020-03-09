@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Your name goes here">
+  <title>Add some style</title>
+  <!-- inside the style tags target the heading with the 'id' selector by copying and pasting the following:
+
+
+    #heading {
+
+      font-family:'comic sans ms', sans-serif;
+
+    }
+
+  end of comment -->
+  <style>
+    /* paste your styles between the html style tags */
+
+
+
+  </style>
+
+</head>
+<body>
+  <h1 id="heading">Hello World</h1>
+
+  <script>
+    var heading = document.getElementById('heading');
+
+    heading.addEventListener('mouseover', function() {
+      this.style.color = 'blue';
+    });
+
+    heading.addEventListener('mouseout', function() {
+      this.style.color = 'orange';
+    });
+  </script>
+</body>
+</html>

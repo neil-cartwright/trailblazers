@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Your name goes here">
+  <title>Add style tags</title>
+  <!-- our page looks messy. Add some <style></style> tags inside the head section -->
+
+
+</head>
+<body>
+  <h1 id="heading">Hello World</h1>
+
+  <script>
+    var heading = document.getElementById('heading');
+
+    heading.addEventListener('mouseover', function() {
+      this.style.color = 'blue';
+    });
+
+    heading.addEventListener('mouseout', function() {
+      this.style.color = 'orange';
+    });
+  </script>
+</body>
+</html>

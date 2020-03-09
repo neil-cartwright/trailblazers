@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="great-great-great-grandparent">
+<head>
+  <meta charset="UTF-8">
+  <title>Inheritance</title>
+  <!-- CSS stands for Cascading Style Sheets -->
+
+  <!-- The styles you apply to top level elements 'cascade' down the DOM (the document object model) -->
+  <!-- CHALLENGE -->
+
+  <!-- 1. With one line of code make .grandparent and all descendents of .grandparent have the color of green -->
+
+  <!-- 2. With one line of code make all h4 tags pink -->
+
+  <!-- 3. view source by pressing ctrl + u - this is what your web page looks like underneath -->
+
+  <!-- 4. open the developers console with ctrl + shift + i -->
+
+  <!-- 5. see if you can change the color of the html.great-great-great-grandparent element in the developers console -->
+
+  <style>
+    html.great-great-great-grandparent {
+      font-family:'comic sans ms', script;
+      color:grey;
+      /* all styles from here will be inherited by their children, unless they are overidden */
+    }
+
+    .grandparent {
+      /* make all of my descendents green */
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+      text-align:center;
+    }
+
+    h4 {
+        /* make all h4 tags pink ( or another colour: note: in html&css colour is spelled the American way ) */
+    }
+
+
+  </style>
+</head>
+<body class="great-great-grandparent">
+  <h1>Heading in great-great-grandparent</h1>
+  <div class="great-grandparent">
+    <h2>Heading in great-grandparent</h2>
+    <div class="grandparent">
+      <h3>Heading in grandparent</h3>
+      <div class="parent">
+        <h4>Heading in parent</h4>
+        <div class="child">
+          <h4>Heading in child</h4>
+          <div class="grandchild">
+            <h5>Heading in grandchild</h5>
+            <!-- and so on -->
+          </div><!-- grandchild -->
+        </div><!-- child -->
+      </div> <!-- parent -->
+    </div><!-- grandparent -->
+  </div><!-- great-grandparent -->
+</body><!-- great-great-grandparent  -->
+</html><!-- great-great-great-grandparent -->
+

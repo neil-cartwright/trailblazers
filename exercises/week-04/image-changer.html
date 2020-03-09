@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Images</title>
+  <style>
+    img {
+      width:300px;
+      height:300px;
+      margin:0 auto;
+      display:block;
+    }
+    img:hover {
+      cursor:pointer;
+    }
+  </style>
+</head>
+<body>
+  <img id="myImage" src="../../images/beard.png" onclick="myFunction()">
+
+  <script>
+    var image = document.getElementById('myImage');
+
+    var images = [
+      '../../images/blue-cap.png',
+      '../../images/blue-tie.png',
+      '../../images/boy-green-tie.png',
+      '../../images/boy-red-jumper.png',
+      '../../images/boy-red-t.png',
+      '../../images/boy-red-t[2].png',
+      '../../images/girl-red-t.png',
+      '../../images/pirate.png',
+      '../../images/yellow-t-shirt.png'
+      ]
+
+    var counter = 0;
+
+    function myFunction() {
+      image.src = images[counter];
+      counter++;
+      console.log(counter);
+
+      if(counter == images.length) {
+        counter = 0;
+      }
+    }
+  </script>
+</body>
+</html>

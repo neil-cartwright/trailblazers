@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Red Hill Trailblazers | Week 5 Coding Exercises</title>
+  <script src="../../jQuery/jquery.js"></script>
+  <script src="../../javascript/week-5.js"></script>
+
+  <style>
+    html, body {
+      box-sizing:border-box;
+    }
+    body {
+      font-family:'comic sans ms', monospace;
+      width:80%;
+      margin:0 auto;
+      padding-bottom:100px;
+    }
+
+    h1, h2, h3 {
+      text-align:center;
+    }
+    .panel {
+      background:#eee;
+      border-radius:5px;
+      padding:1em;
+      margin:2em 0em;
+      border:1px solid #bbb;
+      transition:all .5s ease-in-out;
+      position:relative;
+    }
+
+    input, button, select {
+      font-family:'comic sans ms';
+      padding:1em;
+      margin:1em;
+    }
+
+    input {
+      width:50%;
+      font-family:'courier new', monospace;
+    }
+
+    hr {
+      color:red;
+      margin:5em 0 5em 0;
+    }
+    .tip {
+      color:blue;
+      text-align:center;
+    }
+    .correct {
+      color:green;
+      text-align:center;
+    }
+    .output-2 {
+      color:red;
+      text-align:center;
+    }
+    .incorrect {
+      color:red;
+      text-align:center;
+    }
+    .correctly-answered {
+      border:2px solid green;
+    }
+    .incorrectly-answered {
+      border:2px solid red;
+    }
+    .panel.grow {
+      transform:scale(1.1);
+      box-shadow:3px 3px 3px 3px #bbb;
+      background:#ddd;
+      z-index:100;
+    }
+    .panel h2 {
+      transition:all 1s;
+    }
+    .panel.grow h2 {
+      text-decoration:underline;
+      transform:rotateX(360deg);
+    }
+    .panel.correctly-answered {
+        tranform:skew(3deg);
+      }
+    .panel.incorrectly-answered {
+      transform:rotateY(360deg);
+    }
+
+    .help {
+        display:none;
+        width:80%;
+        margin:0 auto;
+        padding:1em;
+    }
+    code {
+      font-family:'courier  new', monospace;
+      background-color:white;
+      padding:3px;
+      color:green;
+    }
+    .score {
+      display:none;
+      position:fixed;
+      top:10px;
+      left:10px;
+      background:yellow;
+      padding:1em;
+      z-index:1000;
+    }
+    .q6-image {
+      text-align:center;
+    }
+    .q6-image img {
+      width:150px;
+      height:150px;
+      bottom:1em;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .box {
+      width:150px;
+      height:150px;
+      background:yellow;
+      margin:0 auto;
+      cursor:pointer;
+    }
+    .box.active:hover {
+      background-color:blue;
+    }
+    button:disabled {
+      text-decoration:line-through;
+    }
+    .my-box {
+      border-radius:50%;
+      width:200px;
+      height:200px;
+      background:red;
+      margin:0 auto;
+      transition:all 10s;
+      transform:scale(1.5) translate(100px) rotateZ(360deg) rotateY(360deg);
+      transform-origin:right bottom;
+      opacity:0.8;
+    }
+    .red {
+      color:red;
+    }
+  </style>
+</head>
+<body>
+  <h1><span class="red">Red Hill</span> Trailblazers | Week Five Coding Exercises</h1>
+  <div class="score">You have successfully completed <span id="score">0</span> out of <span id="score-length"></span> exercises</div>
+  <hr>
+
+  <!-- part one -->
+  <h2>Part One: HTML (Hyper Text Markup Language)</h2>
+
+  <div class="panel">
+    <h2>Exercise One</h2>
+    <p>Write an opening and closing html tag</p>
+    <input type="text">
+    <button id="q1" class="button">Check my code</button>
+    <button class="help-me">Help Me</button>
+    <div class="output"></div>
+    <p class="tip">Tip: Programmers usually write the opening and closing tags at the same time, and then put the cursor between them. This is so that they don't forget the closing tag.</p>
+    <div class="help">
+      <p>Have you not been listening?? Your answer should look something like this:  <code>&lt;html&gt;&lt;/html&gt;</code>.</p>
+
+      <p>Find out more <a target="_blank" href="https://www.w3schools.com/tags/tag_html.asp">here</a></p>
+    </div>
+  </div>
+
+
+  <div class="panel">
+    <h2>Exercise Two</h2>
+    <p>Write an opening and closing body tag</p>
+    <input type="text">
+    <button id="q2" class="button">Check my code</button>
+    <div class="output"></div>
+    <p class="tip">The body element comes after the closing <code>&lt;/head&gt;</code> tag.</p>
+  </div>
+
+  <div class="panel">
+    <h2>Exercise Three</h2>
+    <p>Create an h1 element, <em>and write something inside the tags.</em></p>
+    <input type="text">
+    <button id="q3" class="button">Check my code</button>
+    <div class="output"></div>
+    <p class="tip">h1 is a 'level one heading' which is the main/strongest heading. Web search spiders crawl the internet and look at these headings in order to categorise sites for search engine retrieval.</p>
+  </div>
+
+  <div class="panel">
+    <h2>Exercise Four</h2>
+    <p>Write some style tags. In an html document these would live inside the <code>&lt;head&gt;&lt;/head&gt;</code> element. This is where your style rules will live.</p>
+    <input type="text">
+    <button id="q4" class="button">Check my code</button>
+    <div class="output"></div>
+    <p class="tip">Most websites actually use external style sheets, or <code>.css</code> files. These are then linked to in the head of the html document.</p>
+    <p class="tip">Websites can very quickly get too big to manage, so developers break up the code into small chunks.</p>
+
+  </div>
+
+
+<!-- five -->
+
+  <div class="panel">
+      <h2>Exercise Five</h2>
+      <p>Give this <code>div</code> element an id of 'my-div'</p>
+      <input type="text" value="<div></div>">
+      <button id="q5" class="button">Check my code</button>
+      <button class="help-me">Help Me</button>
+      <div class="output"></div>
+      <p class="tip">An <code>id</code> must be exclusive. Elements must not share ids. We use ids to target elements with javascript. If you need your elements to share style rules you create a <code>class</code>.</p>
+
+      <div class="help">
+        <p>Place your id attribute inside the opening tag. It might look something like this: <code>&lt;div id="my-div"&gt;&lt;/div&gt;</code></p>
+      </div>
+    </div>
+
+    <!-- six -->
+    <div class="panel">
+      <h2>Exercise Six</h2>
+      <p>Change the code to change the picture.</p><p>You will need to identify a picture from the images directory, and change the filename. Getting file paths correct can be tricky. Look out for typos.</p>
+      <input type="text" value="<img src='../../images/beard.png'>" id="q6-image-input">
+      <button id="q6" class="button">Check my code</button>
+      <button class="help-me" id="q6-help">Help Me</button>
+      <div class="output"></div>
+      <div class="output-2"></div>
+
+
+      <div class="q6-image">
+
+      </div>
+      <p class="tip">Programming tip: In most browsers double tapping a word selects it.</p>
+
+
+      <div class="help">
+
+        <p>The default image is in the 'images' directory inside your 'trailblazers' directory. Look for another image inside the images folder and type the name of the image into the input field. Currently where it says <code>/images/filename.png</code>.</p>
+      </div>
+    </div><!-- panel -->
+
+    <hr>
+
+    <h2>Part Two: CSS (Cascading Style Sheets)</h2>
+    <div class="panel">
+      <h2>Exercise Seven</h2>
+      <p>Write a CSS style rule for a <code>p</code> tag which makes the color:green.</p>
+      <input type="text">
+      <button id="q7" class="button">Check my code</button>
+      <button class="help-me">Help Me</button>
+      <div class="output"></div>
+      <p class="tip">This <code>class</code> attribute will target all paragraph tags in the document.</p>
+
+      <div class="help">
+        <p>A CSS code block looks like this: <br>
+        <br>
+         <code>
+          div { color: orange; }
+
+          </code>
+
+        <br>
+        <span>Don't forget the colon and semi-colon, opening and closing curly braces.</span>
+        </p>
+
+        <p>Find out more <a target="_blank" href="https://www.w3schools.com/css/default.asp">here</a></p>
+      </div>
+    </div><!-- seven -->
+
+    <!-- eight -->
+    <div class="panel">
+      <h2>Exercise Eight</h2>
+      <p>Give this <code>div</code> element a hover pseudo-class that makes the <code>background-color: blue;</code> Then check that the hover is working.</p>
+      <input type="text" value="div { background-color:blue; }">
+      <button id="q8" class="button">Check my code</button>
+      <button class="help-me">Help Me</button>
+      <div class="output"></div>
+
+      <div class="box">
+
+      </div>
+
+      <div class="help">
+        <p>Web developers and programmers look for solutions to problems on the internet. Have a look <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">here</a></p>
+      </div>
+    </div>
+      <!-- eight -->
+
+
+      <!-- nine -->
+      <div class="panel">
+        <h2>Exercise Nine</h2>
+        <p>In the css styles for this web page, there are some style rules pre-written for the class of 'my-box'. Give this 'div' the class of 'my-box' and let's see what happens.</p>
+        <p><code>.my-box {<br>
+            border-radius:50%;<br>
+            width:200px;<br>
+            height:200px;<br>
+            background:red;<br>
+            margin:0 auto;<br>
+            transition:all 10s;<br>
+            transform:scale(1.5) translate(100px) rotateZ(360deg) rotateY(360deg);<br>
+            transform-origin:right bottom;<br>
+            opacity:0.8;<br>
+          }
+            </code>
+        </p>
+        <input type="text" value="<div></div>">
+        <button id="q9" class="button">Check my code</button>
+        <button class="help-me">Help Me</button>
+        <div class="output"></div>
+
+        <div class="box">
+          <p>Give me the class of 'my-box'</p>
+        </div>
+
+        <div class="help">
+          <p>Your code might look something like this: <code>&lt;div class="my-div"&gt;&lt;/div&gt;</code>
+          <p>Web developers and programmers look for solutions to problems on the internet. Have a look <a href="https://www.w3schools.com/tags/att_global_class.asp" target="_blank">here</a></p>
+        </div>
+        <!-- eight -->
+</body>
+</html>

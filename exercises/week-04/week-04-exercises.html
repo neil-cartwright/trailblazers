@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Week Four Exercise</title>
+
+  <link rel="stylesheet" href="../../css/styles.css"><!-- this links to an external style sheet -->
+
+  <style>
+
+  #box {
+     width:300px;
+     height:300px;
+     background:orange;
+     margin:0 auto;
+     padding:1em;
+     border-radius:30px;
+     transition:all .2s;
+   }
+
+  /* Exercise One | :hover styles |  add styles below to change the orange box when you hover over it */
+   #box:hover {
+     cursor:pointer;
+     color:blue;
+   }
+
+   button {
+     width:500px;
+     height:100px;
+     margin:0 auto;
+     display:block;
+     font-size:15pt;
+   }
+
+   button:active {
+     background:orange;
+     color:white;
+   }
+
+   button:hover {
+    color:orange;
+    background:yellow;
+    cursor:pointer;
+   }
+
+  </style>
+</head>
+
+<body>
+
+  <h1>Trailblazers Week Four</h1>
+
+  <p>Once you have opened your browser window and notepad, please try to split the screen so that half is code, and the other half is browser. Then you will see your changes update quicker. </p>
+
+  <p>Please remember to save your code after each edit <code>ctrl + s</code>, and refresh the browser window <code>ctrl + r </code>- otherwise your edits will not be displayed</p>
+
+
+  <hr>
+
+
+
+
+  <!-- exercise one -->
+
+  <h2>Exercise One | :hover styles</h2>
+
+  <div id="box">
+
+      <p>I am a <code>'div'</code> element.</p>
+
+      <p>I have an <code>'id'</code> of <code>'box'</code>.</p>
+
+      <p>Hover the mouse over me to display the <code>:hover</code> styles</p>
+
+  </div>
+
+  <div class="exercise">
+
+    <p>Find the styles relating to <code>#box</code>. Try changing some of the hover styles.</p>
+
+    <p>To begin with try changing the <code>background-color</code>.
+
+    <p>You can change/add any styles. Try to change the <code>width</code> and <code>height</code></p>
+
+    <p style="color:black;margin-top:3em;">Here are some styles you could try to add to the :hover pseudo-class:</p>
+
+    <ul>
+      <li>width:200px;</li>
+      <li>font-family:courier;</li>
+      <li>background-color: pink;</li>
+      <li>border-radius:50%;</li>
+      <li>font-size:50pt;</li>
+      <li>text-transform:uppercase;</li>
+      <li>margin-left:50px;</li>
+      <li>padding:50px;</li>
+      <li>cursor:cell;</li>
+    </ul>
+
+
+    <p>find out more at this website: <a href="https://www.w3schools.com/html/default.asp">W3C Schools</a></p>
+  </div>
+
+  <hr>
+
+
+
+
+  <!-- exercise two -->
+
+  <h2>Exercise Two | Selections</h2>
+
+  <div class="selection">
+
+    <p>I am a <code>select </code>element.</p>
+
+    <select onchange="myFunction()" id="selectionElement">
+      <option value="">--Select Something--</option>
+      <option value="School">School</option>
+      <option value="Cake">Cake</option>
+      <option value="Charlton Athletic">Charlton Athletic</option>
+      <option value="Holidays">Holidays</option>
+      <option value="Programming">Programming</option>
+    </select>
+
+    <div id="mySelection">I have chosen...</div>
+
+    <p class="exercise">Find the code relating to <code>.selection</code>. Try Changing the selection options. You will need to change the <code>value=""</code> and also the text between the <code>option</code> tags</p>
+
+  </div>
+
+  <hr>
+
+
+
+
+  <!-- exercise three -->
+
+  <h2>Exercise Three | Images and Mouseovers</h2>
+
+  <picture>
+    <span id="imgText">I am an <code>img</code> element.</span>
+    <img id="image" src="../../images/beard.png" onmouseover="changeImage()" onmouseout="changeImageBack()">
+  </picture>
+
+
+  <p>If you <code>onmouseover</code> the image you will invoke a javascript function called <code>changeImage()</code></p>
+  <p>When you <code>onmouseout</code> of the image it will invoke a function called <code>changeImageBack()</code></p>
+
+  <p class="exercise">Find the <code>img</code> tag. Try changing the <code>src=""</code> and change the default pictures. Look in the images folder (directory) for an alternative image.</p>
+
+  <p class="well"><span style="color:green;text-decoration:underline;">Advanced</span> Try to change the javascript. Instead of using an <code>onmouseover</code> event try using an <code>onclick</code> event. Instead of <code>onmouseout</code> try using <code>ondblclick</code> (on double click).</p>
+
+
+  <hr>
+
+
+  <!-- exercise four -->
+
+  <h2>Exercise Four | Prompts</h2>
+
+  <button onclick="promptMe()">Click Me. I am a button Element.</button>
+
+  <span id="myButton"></span>
+
+  <p class="exercise">Try changing the text inside the button element.</p>
+  <p class="exercise">Try changing some of the button styles</p>
+  <p class="exercise">Try to find the javascript inside the script tags at the bottom of the code page. See if you can change the default prompt answer from 'Harry Potter' to something else.</p>
+
+  <hr>
+
+
+  <p class="exercise">Have a go at the html quiz, if you haven't already. <a target="_blank" href="../../quizzes/html_basics.html">Click Here</a>.</p>
+
+  <hr>
+
+  <script>/* javascript for select box */
+
+    var selectionElement = document.getElementById('selectionElement');
+    var selection = document.getElementById('mySelection');
+
+    function myFunction() {
+      selection.innerHTML =  'I have chosen... ' + selectionElement.value;
+    }
+
+  </script>
+
+  <script>/* javascript for image changer */
+
+    var image = document.getElementById('image');
+    var originalImage = image.src;
+    var imageText = document.getElementById('imgText');
+    var originalText = imageText.innerHTML;
+
+    function changeImage() {
+      image.src = "../../images/pirate.png";
+      imageText.innerHTML = 'You moused over me. AArrgh!';
+    }
+
+    function changeImageBack() {
+      image.src = originalImage;
+      imageText.innerHTML = originalText;
+    }
+  </script>
+
+   <script>/* javascript for button prompt */
+
+
+     // change the question and give a different default answer
+
+      function promptMe() {
+        var person = prompt("Please enter your name", "Harry Potter");
+
+        if (person != null) {
+            document.getElementById("myButton").innerHTML =
+            "Hello " + person + "! How are you today?";
+        }
+      }
+
+  </script>
+</body>
+</html>

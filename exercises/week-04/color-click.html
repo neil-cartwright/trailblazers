@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Colour Click</title>
+  <style>
+
+    #box {
+      width:300px;
+      height:300px;
+      background:orange;
+      margin:0 auto;
+      font-family:'comic sans ms';
+    }
+    #box:hover {
+      cursor:pointer;
+    }
+    #box:hover:before {
+      content:'click me';
+      display:block;
+      text-align:center;
+      line-height:300px;
+    }
+  </style>
+
+</head>
+<body>
+  <div id="box" onclick="myFunction()">
+
+  </div>
+
+  <script>
+    // this is an array, stored in a variable
+    var colors = ['red', 'yellow', 'green', 'blue'];
+    // this is a variable
+    var counter = 0;
+    // this is a function
+    function myFunction() {
+      var box = document.getElementById('box');
+      box.style.backgroundColor = colors[counter];
+      counter++;
+      // this is an 'if' statement
+      if(counter == colors.length) {
+        counter = 0;
+      }
+    }
+  </script>
+</body>
+</html>

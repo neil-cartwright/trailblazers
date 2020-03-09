@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Your name goes here">
+  <title>Don't repeat yourself</title>
+
+  <style>
+
+    /* We are repeating ourselves by having the same rule for font-family for two different elements.
+
+       3. Create a rule for body {} and give it the comic-sans font-family. Note: copy and paste if it's quicker
+
+       Then remove the font-family rule from #heading and .para as it is no longer needed
+
+       Programmers rule #1: DRY = Don't Repeat Yourself;
+
+       Programming key concept: Inheritance. The #heading and .para tags inherit styles from their parent elements;
+
+    */
+
+    body {
+      /* add a font:family rule here */
+    }
+
+    #heading {
+      font-family:'comic sans ms', sans-serif;
+      font-size:24pt;
+      text-align:center;
+      text-decoration:underline;
+    }
+
+    .para {
+      font-family:'comic sans ms', sans-serif;
+      font-size:12pt;
+    }
+
+    /* 2. create a style rule for .green and give it a color:green; rule */
+
+  </style>
+
+</head>
+<body>
+  <h1 id="heading">Hello World</h1>
+
+  <!-- 1. surround the color green with <span></span> tags and give the tags a class of 'green' -->
+
+  <p class="para">My Name is Mr Cartwright and my favourite colour is green</p>
+
+
+<script>
+  var heading = document.getElementById('heading');
+  heading.addEventListener('mouseover', function() {
+    this.style.color = 'blue';
+  });
+  heading.addEventListener('mouseout', function() {
+    this.style.color = 'orange';
+  });
+</script>
+</body>
+</html>

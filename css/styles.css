@@ -1,0 +1,86 @@
+  body {
+    width:800px;
+    margin:0 auto;
+  }
+
+  body, select, button {
+    font-family:'comic sans ms';
+  }
+
+  h1,h2 {
+    text-align:center;
+  }
+
+  img {
+    width:300px;
+    height:300px;
+    margin:0 auto;
+    display:block;
+  }
+
+  picture {
+    position:relative;
+  }
+
+  #imgText {
+    position:absolute;
+    z-index:10;
+    left: 439px;
+    top: 55px;
+    width:100px;
+  }
+
+
+
+  .selection {
+    margin-top:1em;
+    border:1px dotted black;
+    padding:1em;
+  }
+
+  select {
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    display:block;
+  }
+
+  #mySelection {
+    color:green;
+    margin-top:1em;
+  }
+
+  hr {
+    margin:5em 0;
+    background-color:orange;
+  }
+
+  .well {
+    background:#eee;
+    border-radius:5px;
+    padding:1em 5em;
+  }
+
+  .exercise {
+    margin-top:1em;
+    background:#eee;
+    border-radius:5px;
+    padding:1em 5em;
+    color:green;
+  }
+
+#myButton {
+  color:red;
+  font-size:15pt;
+  display:block;
+  margin:1em 0;
+  padding:1em;
+  text-align:center;
+}
+
+ul {
+  color:black;
+}
+li {
+  margin-bottom:.5em;
+}

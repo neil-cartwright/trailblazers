@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>javaScript Events</title>
+
+  <style>
+
+    #box {
+      width:200px;
+      height:200px;
+      border-radius:5px;
+      background-color:black;
+      margin-left:auto;
+      margin-right:auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="box">
+    <!-- .box -->
+  </div>
+
+  <script>
+    // this is an array. An array is a collection of things (in this case, colours). | We store the collection in a place in computer memory and call that place 'colors'. 'var' stands for 'variable';
+
+    var colors = ['red', 'yellow','green'];
+
+    // store the element called #box in memory with a var box declaration
+    var box = document.getElementById('box');
+
+    // create another variable to store a number. This is so we can loop through the array when we click
+    var counter = 0;
+
+    // add an event listener to the box which listens for the click event and then does something (with an anonymous function). We need javaScript because we can't listen for clicks with css.
+    box.addEventListener('click', function() {
+
+      // "this" means "this box". We can change it's style via javaScript. Arrays are zero indexed.
+      // This means that the array goes [red = 0, yellow = 1, green = 2];
+      this.style.backgroundColor = colors[counter];
+      // increase the counter by one with the ++ operator - which means 'add one'; What do you think 'take away one' would look like?
+      counter++;
+      // use an if statement to check if we've gone through the whole array and then go back to the beginning if we have;
+      if(counter == colors.length) {
+        counter = 0;
+      }
+    });
+
+    // CHALLENGES //
+
+    // 1. Change the event in the event listener from 'click' to 'mouseover';
+
+    // 2. Change it back to a 'click' event. Then add two more colours to the colors array;
+
+  </script>
+</body>
+</html>
+

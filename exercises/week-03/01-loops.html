@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loops</title>
+
+  <!-- computers are great at doing boring things like printing out lots of numbers. For this we use loops -->
+  <style>
+    body {
+      background:#e6e6e6;
+      text-align:center;
+      font-family:'comic sans ms', script;
+    }
+    .myDiv {
+      width:500px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    ul {
+      background:white;
+      padding:0;
+      margin:0;
+    }
+
+    li {
+      list-style-type:none;
+      padding:0 1em;
+      font-size:14pt;
+      text-align:center;
+      border:1px solid #e5e5e5;
+    }
+
+    li:nth-child(odd) {
+      color:orange;
+    }
+
+    li:nth-child(even) {
+      color:green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Looping through numbers</h1>
+  <div class="myDiv">
+    <ul id="myList">
+
+    </ul>
+  </div>
+  <script>
+    var myList = document.getElementById('myList');
+    // this is called a 'for' loop. There are other types of loop.
+    for (var i=1; i<=10; i++) {
+      // for each iteration of the loop create an element, and the number of the loop, and put it into the document (DOM)
+
+      var listItem = document.createElement('li');
+      var number = document.createTextNode(i);
+
+      listItem.appendChild(number);
+      myList.appendChild(listItem);
+
+    }
+
+    // CHALLENGEs //
+    // change the code and loop through numbers 1 - 100
+    // loop up to 1000
+    // loop up to 10000
+    // if you go too high you'll crash the browser!
+  </script>
+</body>
+</html>

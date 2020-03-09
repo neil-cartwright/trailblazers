@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>html basics quiz</title>
+  <script src="../jQuery/jquery.js"></script>
+  <style>
+    * {
+      box-sizing:border-box;
+    }
+    body {
+      font-family:'comic sans ms', script;
+      width:800px;
+      margin:0 auto;
+    }
+    h1 {
+      text-align:center;
+    }
+    .questions-container {
+      background:#e5e5e5;
+      padding:3em;
+      margin:1em;
+    }
+    li.answer {
+      display:block;
+      list-style:none;
+      border:1px solid black;
+      margin:1em;
+      padding:1em;
+    }
+    li.answer:hover {
+      cursor:pointer;
+      background-color:white;
+    }
+    span.incorrect, span.correct {
+      margin-left:20px;
+    }
+    span.score {
+      width:30%;
+    }
+    .go-green {
+      background-color:green;
+      color:white;
+      transition:all 3s;
+      transition-delay:1.2s;
+    }
+    code {
+      background:Gainsboro;
+      color:black;
+      padding:5px;
+      margin:5px;
+      font-size:15px;
+    }
+
+    .footer {
+      background:white;
+      bottom:0px;
+      text-align:center;
+      width:100%;
+      height:50px;
+      margin-top:10em;
+      padding-top:1em;
+      padding-bottom:3em;
+      border-top:1px solid black;
+
+    }
+
+    p#score {
+      text-align:center;
+    }
+
+    #score, #myScore {
+      color:green;
+      font-size:15pt;
+    }
+
+    #myScore {
+      transition:all 3s;
+    }
+
+    .flash {
+      background:yellow;
+    }
+
+  </style>
+</head>
+<body>
+
+<h1>Red Hill Trailblazers HTML Quiz</h1>
+
+<p id="score">You scored <span id="myScore"></p>
+
+  <div class="question questions-container">
+
+    <p class="question-text">1. Which of the following is an html file?</p>
+
+    <ul class="answers">
+      <li class="answer" data-answer="c">home.html</li>
+      <li class="answer">styles.css</li>
+      <li class="answer">scripts.js</li>
+    </ul>
+
+  </div><!-- questions -->
+
+  <!-- question two -->
+
+  <div class="question questions-container">
+
+    <p class="question-text">2. True of False: Google Chrome, Internet Explorer and Mozilla Firefox are all "Web Browsers"</p>
+
+    <ul class="answers">
+      <li class="answer"  data-answer="c">True</li>
+      <li class="answer">False</li>
+    </ul>
+
+  </div><!-- questinon two -->
+
+  <!-- question two-a -->
+
+    <div class="question questions-container">
+
+      <p class="question-text">3. Which html tags contain the content which will be displayed on the web page?</p>
+
+      <ul class="answers">
+        <li class="answer"><code>&lt;head&gt; &lt;/head&gt;</code></li>
+        <li class="answer" data-answer="c"><code>&lt;meta&gt; &lt;/meta&gt;</code></li>
+        <li class="answer"><code>&lt;style&gt; &lt;/style&gt;</code></li>
+        <li class="answer" data-answer="c"><code>&lt;body&gt; &lt;/body&gt;</code> </li>
+      </ul>
+
+    </div><!-- question seven -->
+
+  <!-- question three -->
+
+  <div class="question questions-container">
+
+    <p class="question-text">4. How do you 'Select All' with the keyboard?</p>
+
+    <ul class="answers">
+      <li class="answer">Ctrl + U</li>
+      <li class="answer">Ctrl + Shift + i</li>
+      <li class="answer" data-answer="c">Ctrl + A</li>
+      <li class="answer">Ctrl + Alt + Delete</li>
+    </ul>
+
+  </div><!-- question three -->
+
+  <!-- question four -->
+
+  <div class="question questions-container">
+
+    <p class="question-text">5. How do you 'View Source' code?</p>
+
+    <ul class="answers">
+      <li class="answer">Press Ctrl + Shift + I</li>
+      <li class="answer">Press Ctrl + R</li>
+      <li class="answer" data-answer="c">Press Ctrl + U</li>
+      <li class="answer">Press Ctrl + T</li>
+    </ul>
+
+  </div><!-- question four -->
+
+  <!-- question five -->
+
+  <div class="question questions-container">
+
+    <p class="question-text">6. Which "mark up" language is used to make web pages look nice?</p>
+
+    <ul class="answers">
+      <li class="answer">JavaScript</li>
+      <li class="answer">HTML</li>
+      <li class="answer">XML</li>
+      <li class="answer" data-answer="c">CSS</li>
+    </ul>
+
+  </div><!-- question five -->
+
+
+  <!-- question six -->
+
+  <div class="question questions-container">
+
+    <p class="question-text">7. Which programming language is used to make web pages more interactive?</p>
+
+    <ul class="answers">
+      <li class="answer">HTML</li>
+      <li class="answer">XML</li>
+      <li class="answer" data-answer="c">JavaScript</li>
+      <li class="answer" >CSS</li>
+    </ul>
+
+  </div><!-- question six -->
+
+  <!-- question seven -->
+
+  <div class="question questions-container">
+
+    <p class="question-text">8. How do you write an html comment?</p>
+
+    <ul class="answers">
+      <li class="answer"><code>// Like this //</code></li>
+      <li class="answer"><code>/* Like this */</code></li>
+      <li class="answer" data-answer="c"><code>&lt;!-- Like This --&gt;</code></li>
+    </ul>
+
+  </div><!-- question seven -->
+
+  <!-- question seven -->
+
+  <div class="question questions-container">
+
+    <p class="question-text">9. Which tags do you use to start and finish an html document?</p>
+
+    <ul class="answers">
+      <li class="answer"><code>&lt;body&gt; &lt;/body&gt;</code> </li>
+      <li class="answer"><code>&lt;head&gt; &lt;/head&gt;</code></li>
+      <li class="answer" data-answer="c"><code>&lt;html&gt; &lt;/html&gt;</code></li>
+    </ul>
+
+  </div><!-- question seven -->
+
+  <!-- question eight -->
+
+    <div class="question questions-container">
+
+      <p class="question-text">10. True or False: HTML stands for Hyper Text Markup Language</p>
+
+      <ul class="answers">
+        <li class="answer">False</li>
+        <li class="answer" data-answer="c">True</li>
+      </ul>
+
+    </div><!-- question seven -->
+
+<div class="footer">Red Hill Trailblazers 2018</div>
+
+  <script>
+   jQuery(document).ready(function() {
+
+    $('#score').hide();
+
+    var score = 0;
+    var answered = 0;
+
+    $('.answers').one('click', 'li', function() {
+
+      answered++;
+
+      if($(this).data('answer') == 'c') {
+        $(this)
+          .css({
+            backgroundColor: 'green',
+            color: 'white'
+          })
+          .append('<span class="correct">Correct!</span>');
+
+          score++;
+      } else {
+        $(this)
+          .css({
+            backgroundColor: 'red',
+            color: 'white'
+          })
+          .append('<span class="incorrect">Wrong!!</span>')
+          .siblings()
+          .filter('[data-answer="c"]')
+          .addClass('go-green');
+      } // else
+
+      if(answered == $('.question').length) {
+        $('#score').show();
+        $('#myScore')
+          .text( score + ' out of ' + $('.question').length )
+          .addClass('flash');
+        $('html, body').animate({
+          scrollTop: "0px"
+        }, 1000);
+      }
+
+    });
+
+   });
+  </script>
+</body>
+</html>

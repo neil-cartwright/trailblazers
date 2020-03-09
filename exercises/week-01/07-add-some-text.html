@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Your name goes here">
+  <title>Add some text</title>
+
+  <style>
+
+    #heading {
+      font-family:'comic sans ms', sans-serif;
+      font-size:24pt;
+      text-align:center;
+      text-decoration:underline;
+    }
+
+  </style>
+
+</head>
+<body>
+  <h1 id="heading">Hello World</h1>
+  <!-- underneath the heading add some <p></p> paragraph tags. Inside these write your name, and your favourite colour -->
+
+  <script>
+    var heading = document.getElementById('heading');
+
+    heading.addEventListener('mouseover', function() {
+      this.style.color = 'blue';
+    });
+
+    heading.addEventListener('mouseout', function() {
+      this.style.color = 'orange';
+    });
+  </script>
+</body>
+</html>
