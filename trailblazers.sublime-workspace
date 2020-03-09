@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"sign",
+				"sign"
+			],
+			[
+				"vehicles",
+				"vehicles"
+			],
+			[
+				"png",
+				"png"
+			],
+			[
 				"tr",
 				"transparent"
 			],
@@ -23,92 +35,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "exercises/week-01/01-hello-world.html",
-			"settings":
-			{
-				"buffer_size": 583,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "exercises/week-01/02-add-id-attr.html",
-			"settings":
-			{
-				"buffer_size": 280,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "exercises/week-01/03-add-script-tags.html",
-			"settings":
-			{
-				"buffer_size": 788,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "exercises/week-01/04-add-style-tags.html",
-			"settings":
-			{
-				"buffer_size": 579,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "exercises/week-01/05-add-some-style.html",
-			"settings":
-			{
-				"buffer_size": 774,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "exercises/week-01/06-add-more-styles.html",
-			"settings":
-			{
-				"buffer_size": 836,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "exercises/week-01/07-add-some-text.html",
-			"settings":
-			{
-				"buffer_size": 785,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "exercises/week-01/08-add-class-tags.html",
-			"settings":
-			{
-				"buffer_size": 1195,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "exercises/week-01/09-dont-repeat-yourself.html",
-			"settings":
-			{
-				"buffer_size": 1547,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "exercises/week-01/10-final-version.html",
-			"settings":
-			{
-				"buffer_size": 978,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -122,39 +48,123 @@
 		"selected_items":
 		[
 			[
-				"packag",
-				"Package Control: Remove Package"
-			],
-			[
-				"browser",
-				"File: Open In Browser - Testing Server"
-			],
-			[
-				"readme",
-				"ReadmePlease"
-			],
-			[
-				"packa",
+				"packagein",
 				"Package Control: Install Package"
 			],
 			[
-				"pack",
-				"Package Control: Remove Package"
+				"packaginst",
+				"Package Control: Install Package"
 			],
 			[
-				"colorp",
-				"Package Control: Upgrade Package"
+				"packinsta",
+				"Package Control: Install Package"
 			],
 			[
-				"read",
-				"ReadmePlease"
-			],
-			[
-				"pac",
+				"packageinstall",
 				"Package Control: Install Package"
 			],
 			[
 				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"fileview",
+				"File: New View into File"
+			],
+			[
+				"packageremove",
+				"Package Control: Remove Package"
+			],
+			[
+				":reg",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"packainsa",
+				"Package Control: Install Package"
+			],
+			[
+				"removepac",
+				"Package Control: Remove Package"
+			],
+			[
+				"packainstall",
+				"Package Control: Install Package"
+			],
+			[
+				"packainstal",
+				"Package Control: Install Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"artisan cache",
+				"Laravel Artisan 5: Cache:Clear"
+			],
+			[
+				"artisan serve",
+				"Laravel Artisan 5: Serve"
+			],
+			[
+				"artisan make contr",
+				"Laravel Artisan 5: Make:Controller"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"packageresou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packageres",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Snippet: pub",
+				"Snippet: pubfunc"
+			],
+			[
+				"packinsl",
+				"Package Control: Install Package"
+			],
+			[
+				"packagin",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"packins",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"package remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove\t",
+				"Emmet: Remove Tag"
+			],
+			[
+				"pac",
 				"Package Control: Install Package"
 			],
 			[
@@ -164,13 +174,9 @@
 			[
 				"package control in",
 				"Package Control: Install Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			]
 		],
-		"width": 741.0
+		"width": 673.0
 	},
 	"console":
 	{
@@ -190,149 +196,146 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/neilc/Sites/redHill/trailblazers",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/week-01",
-		"/C/Users/neilc/Sites/redHill/trailblazers/quizzes"
+		"/C/wamp64/www/sitepages/trailblazers"
 	],
 	"file_history":
 	[
-		"/C/Users/neilc/Sites/redHill/trailblazers/index.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/quizzes/html_basics.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/week-03/01-loops.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/week-03/02-inputs.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/week-02/04-javascript-events.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/week-02/01-inheritance.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/week-01/01-hello-world.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/week-02/02-css-hover.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/week-02/03-css-transition.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/week-01/09-dont-repeat-yourself.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/week-01/10-final-version.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/week-one/09-dont-repeat-yourself.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/week-one/10-final-version.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/week-one/02-add-id-attr.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/08-add-class-tags.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/07-add-some-text.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/01-hello-world.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/id-attr.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/id_attr.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/add-more-text.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/add-script-tags.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/add-style-tags.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/add-some-style.html",
-		"/C/Users/neilc/Sites/redHill/trailblazers/exercises/more-styles.html",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/footer.php",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/js/scripts.js",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/postcss/main_styles.css",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/page-home.php",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-includes/theme-compat/footer.php",
-		"/C/Users/neilc/AppData/Local/Temp/fz3temp-2/page-home.php",
-		"/C/Users/neilc/AppData/Local/Temp/fz3temp-2/index.php",
-		"/C/Users/neilc/AppData/Roaming/Sublime Text 3/Packages/User/Snippets/bloginfo.sublime-snippet",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/header.php",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/postcss/media_queries.css",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/postcss/navigation.css",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/postcss/new-page.css",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/page-new.php",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/postcss/vars.css",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/postcss/custom.css",
-		"/C/wamp64/www/sitepages/adam-ellis/site/removed_items.php",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/page-swipebox.php",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/postcss/other_pages.css",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/sidebar.php",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/wp-bootstrap-navwalker.php",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/functions.php",
-		"/C/wamp64/www/sitepages/adam-ellis/page-new.php",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-config.php",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-config-live.php",
-		"/C/Users/neilc/AppData/Local/Temp/fz3temp-2/wp-config.php",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/postcss/fedia_queries.css",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/js/scripts.js",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/postcss/style.css",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/index.html",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/style.css",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/template-parts/style.css",
-		"/C/wamp64/www/sitepages/adam-ellis/site/.gitignore",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/gulpfile.js",
-		"/C/wamp64/www/sitepages/adam-ellis/site/wp-content/themes/adam_ellis/css/custom.css",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/postcss/main_styles.css",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/postcss/media_queries.css",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/postcss/navigation.css",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/img/previews/inspected.jpeg",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/bootstrap/bootstrap.min.css",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/bootstrap/bootstrap.min.js",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/jquery/jquery.min.js",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/gulpfile.js",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/postcss/vars.css",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/node_modules/arraybuffer.slice/Makefile",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/package-lock.json",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/postcss/custom.css",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/scraps/carousel.html",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/css/custom.css",
-		"/C/wamp64/www/sitepages/adam-ellis/postcss/modules/vars.css",
-		"/C/Users/neilc/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/README.md",
-		"/C/wamp64/www/sitepages/adam-ellis/bootstrap_theme/package.json",
-		"/C/Users/neilc/AppData/Roaming/Sublime Text 3/Packages/Gutter Color/README.md",
-		"/C/Users/neilc/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/readme.md",
-		"/C/Users/neilc/Sites/training/bootstrap/carousel.html",
-		"/C/Users/neilc/Sites/training/bootstrap/parallax-header.html",
-		"/C/Users/neilc/Sites/training/bootstrap/full-height-background-image.html",
-		"/C/Users/neilc/Sites/training/css_positioning/flexbox_menu.html",
-		"/C/Users/neilc/Sites/training/css_positioning/flexbox.html",
-		"/C/Users/neilc/Sites/training/css_positioning/flexbox.hmtl",
-		"/C/Users/neilc/Sites/training/css_positioning/vertical_centering.html",
-		"/C/Users/neilc/Sites/training/css_positioning/circle_with_image.html",
-		"/C/Users/neilc/Sites/training/css_positioning/circle_with_image_using_float.html",
-		"/C/Users/neilc/Sites/training/css_positioning/circle_centered.html",
-		"/C/Users/neilc/Sites/training/css_positioning/circle_centered_bg_image.html",
-		"/C/Users/neilc/AppData/Roaming/Microsoft/Signatures/driving school.htm",
-		"/C/wamp64/www/sitepages/sitepages/webpack.mix.js",
-		"/C/wamp64/www/sitepages/sitepages/resources/assets/sass/modules/_main.scss",
-		"/C/wamp64/www/sitepages/sitepages/resources/views/templates/home_template.blade.php",
-		"/C/wamp64/www/sitepages/sitepages/sitepages/webpack.mix.js",
-		"/C/wamp64/www/sitepages/sitepages/package.json",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/css-2016/modules/index-page-main-content.css",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/js/animations.js",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/members/members-home.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/includes/index-page-main-content.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/index.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/includes/nav_for_index.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/includes/nav.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/css-2016/modules/nav.css",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/css-2016/modules/blocks.css",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/css-2016/base/variables.css",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/css-2016/base/global.css",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/css-2016/styles.css",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/css-2016/modules/selling-points.css",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/blog/blog-home.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/includes/full_width_sections.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/blog/articles/2017/first-article.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/includes/footer.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/css-2016/modules/blog.css",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/css-2016/modules/social-media-links.css",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/css-2016/modules/jumbotron.css",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/includes/head.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/quizzes/general-quiz.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/includes/share_buttons.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/includes/jumbotron.php",
-		"/C/Users/neilc/AppData/Local/Temp/Temp1_simple-share-buttons-adder.6.3.6.zip/simple-share-buttons-adder/simple-share-buttons-adder.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/blog/articles/2017/second-article.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/css-2016/modules/tables.css",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/info/prices.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/knowledge/pedestrian-crossings.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/info/about_me.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/includes/recommendations_full.php",
-		"/C/Users/neilc/AppData/Local/Temp/fz3temp-2/gdform.php",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/css-2016/modules/bg-colors.css",
-		"/C/wamp64/www/driving_school/charlton_driving_school/charltondriving_2015/includes/nav_for_blog.php"
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/.gitignore",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/.env.example",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/app/Post.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/app/Http/Controllers/PostController.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/config/database.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/app/Http/Controllers/ReviewsController.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/reviews/index.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/index.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/routes/web.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/database/sql_exports/reviews.sql",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/layouts/navigation/auth-nav.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/app/Http/Controllers/LessonController.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/home.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/admin/admin.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/app/Http/Controllers/AdminController.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/app/Review.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/modules/_cards.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/layouts/navigation/home-menu.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/layouts/navigation/guest-nav.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/app.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/blog/index.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/public/js/test-passes.js",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/js/components/TestPassesComponent.vue",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/.gitattributes",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/modules/_helpers.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/areas/area.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/layouts/navigation/master-nav.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/modules/_nav.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/js/app.js",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/layouts/master-layout.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/modules/_blog.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/webpack.mix.js",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/modules/_allsorts.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/pages/prices.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/modules/_prices.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/quizzes/quiz-template.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/quizzes/quiz-menu.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/js/components/NewQuizComponent.vue",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/public/js/quizzes/signs-quiz.js",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/public/js/quizzes/vehicle-lighting-quiz.js",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/public/js/quizzes/roundabouts-quiz.js",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/public/js/quizzes/parking-and-stopping-quiz.js",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/modules/_hero.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/areas/includes/sidcup.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/areas/includes/petts-wood.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/areas/includes/grove-park.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/areas/includes/mottingham.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/areas/includes/lee-green.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/areas/includes/bromley.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/areas/includes/eltham.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/areas/includes/kidbrooke.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/areas/includes/chislehurst.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/pages/recommendations.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/js/components/signsComponent.vue",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/modules/_quiz.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/public/js/quizzes/pedestrian-crossings-quiz.js",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/js/components/QuizComponent.vue",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/app/Http/Controllers/quizController.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/app/Http/Controllers/HomeController.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/app/Http/Controllers/signsController.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/signs/show.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/.env",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/tests/routes/sidcup.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/modules/_user-resources.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/auth/passwords/reset.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/vendor/laravel-bulma-starter/auth/passwords/reset.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/vendor/laravel-bulma-starter/auth/passwords/email.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/auth/register.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/vendor/laravel-bulma-starter/auth/register.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/tests/routes.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/tests/routes/bromley.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/tests/routes/west-wickham.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/tests/routes/hither-green.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/auth/login.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/vendor/laravel-bulma-starter/auth/login.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/quizzes/index.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/pages/contact.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/public/js/recommendations.js",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/app/Providers/AppServiceProvider.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/private_key.ppk",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/blog/create.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/blog/edit.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/blog/show.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/blog/posts.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/public/js/quillOptions.js",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/keywords.txt",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/modules/_menus.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/modules/_footer.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/layouts/footer.blade.php",
+		"/C/wamp64/www/sitepages/commons_chislehurst/sql/all-content-from-staging-server-11-02-20/chislehurstcommons.WordPress.2020-02-11.xml",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/text-books/index.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/app/Http/Controllers/TestRouteController.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/tom-tom/bromley/route-2.gpx",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/tom-tom/bromley/Bromley test.gpx",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/tom-tom/hither-green/Rose test hg.gpx",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/tom-tom/hither-green/Jan 29 407 PM.gpx",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/pages/areas.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/modules/_test-passes.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/modules/_images.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/sass/modules/_notifications.scss",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/.env.live",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/testpage.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/js/signs-component-master.js",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/vendor/laravel-bulma-starter/layouts/bulma.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/public/js/app.js",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/assets/js/components/ParkingComponent.vue",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/tom-tom/hither-green/route-1.gpx",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/resources/views/stuff-i-am-too-scared-to-delete/logged-in-menu.blade.php",
+		"/C/wamp64/www/driving_school/chislehurst_driving_school_2018_laravel/laravel/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_image.scss",
+		"/C/wamp64/www/sitepages/commons_chislehurst/wordpress/wp-content/themes/chislehurstcommons/_javascript/main.js",
+		"/C/wamp64/www/sitepages/commons_chislehurst/wordpress/wp-content/themes/chislehurstcommons/index.php",
+		"/C/wamp64/www/sitepages/commons_chislehurst/wordpress/wp-content/themes/chislehurstcommons/sidebar.php",
+		"/C/wamp64/www/sitepages/commons_chislehurst/wordpress/wp-content/themes/chislehurstcommons/footer.php",
+		"/C/wamp64/www/sitepages/commons_chislehurst/wordpress/wp-content/themes/chislehurstcommons/_sass/modules/_overlay.scss",
+		"/C/wamp64/www/sitepages/commons_chislehurst/wordpress/wp-content/themes/chislehurstcommons/_sass/modules/_navigation.scss",
+		"/C/wamp64/www/sitepages/commons_chislehurst/wordpress/wp-content/themes/chislehurstcommons/_sass/main.scss",
+		"/C/wamp64/www/sitepages/commons_chislehurst/wordpress/wp-content/themes/chislehurstcommons/page-news.php",
+		"/C/wamp64/www/sitepages/commons_chislehurst/wordpress/wp-content/mu-plugins/chislehurst_commons_post_types.php",
+		"/C/wamp64/www/sitepages/commons_chislehurst/bulmapress/sidebar.php",
+		"/C/wamp64/www/sitepages/commons_chislehurst/wordpress/wp-content/themes/chislehurstcommons/page-events.php",
+		"/C/wamp64/www/sitepages/commons_chislehurst/admin/info.txt",
+		"/C/wamp64/www/sitepages/commons_chislehurst/bulmapress/footer.php",
+		"/C/wamp64/www/sitepages/commons_chislehurst/wordpress/wp-content/themes/chislehurstcommons/todo.txt",
+		"/C/wamp64/www/sitepages/commons_chislehurst/wordpress/wp-content/themes/chislehurstcommons/functions.php",
+		"/C/wamp64/www/sitepages/commons_chislehurst/bulma/bulma-start/index.html",
+		"/C/wamp64/www/sitepages/commons_chislehurst/wordpress/wp-config.php",
+		"/C/wamp64/www/sitepages/commons_chislehurst/bulma/bulma-start/_sass/modules/_socialMedia.scss"
 	],
 	"find":
 	{
-		"height": 52.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
-		"height": 134.0,
+		"height": 137.0,
 		"where_history":
 		[
 		]
@@ -342,1987 +345,35 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"&lt;h1&gt; &lt;/h1&gt;",
-			"remFavColor",
-			"var",
-			"'),",
-			"var",
-			"');",
-			"localStorage",
-			"savedMessage",
-			"messageLabel",
-			"submitMyName"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": false,
 		"use_buffer2": false,
-		"whole_word": true,
-		"wrap": false
+		"whole_word": false,
+		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 9,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "exercises/week-01/01-hello-world.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 583,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								553,
-								553
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										112,
-										116
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										112,
-										116
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "exercises/week-01/02-add-id-attr.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								263,
-								263
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										14,
-										15
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/angle_bracket.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "exercises/week-01/03-add-script-tags.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 788,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								358,
-								358
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										14,
-										15
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/angle_bracket.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 53.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "exercises/week-01/04-add-style-tags.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 579,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": 27,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										14,
-										15
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/angle_bracket.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "exercises/week-01/05-add-some-style.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 774,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								258,
-								258
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										14,
-										15
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/angle_bracket.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "exercises/week-01/06-add-more-styles.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 836,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								247,
-								247
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										14,
-										15
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/angle_bracket.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 199.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "exercises/week-01/07-add-some-text.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 785,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": 28,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										14,
-										15
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/angle_bracket.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "exercises/week-01/08-add-class-tags.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1195,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										14,
-										15
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/angle_bracket.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										14,
-										15
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/angle_bracket.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "exercises/week-01/09-dont-repeat-yourself.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1547,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										14,
-										15
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/angle_bracket.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										14,
-										15
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/angle_bracket.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "exercises/week-01/10-final-version.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 978,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								498,
-								498
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 51.0
+		"height": 34.0
 	},
 	"input":
 	{
-		"height": 51.0
+		"height": 59.0
 	},
 	"layout":
 	{
@@ -2347,9 +398,13 @@
 		]
 	},
 	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
 	"output.find_results":
 	{
-		"height": 179.0
+		"height": 258.0
 	},
 	"output.mdpopups":
 	{
@@ -2359,7 +414,7 @@
 	"project": "trailblazers.sublime-project",
 	"replace":
 	{
-		"height": 63.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -2369,36 +424,536 @@
 		"selected_items":
 		[
 			[
-				"footer",
-				"site\\wp-includes\\theme-compat\\footer.php"
-			],
-			[
-				"remov",
-				"site\\removed_items.php"
+				"gitignore",
+				".gitignore"
 			],
 			[
 				"",
-				"bootstrap_theme\\package-lock.json"
+				".env.example"
 			],
 			[
-				"forg",
-				"info\\forgotten_password.php"
+				"post.php",
+				"app\\Post.php"
+			],
+			[
+				"postcontr",
+				"app\\Http\\Controllers\\PostController.php"
+			],
+			[
+				"config/datab",
+				"config\\database.php"
+			],
+			[
+				"reviewindex",
+				"resources\\views\\reviews\\index.blade.php"
+			],
+			[
+				"index.blade",
+				"resources\\views\\index.blade.php"
+			],
+			[
+				"reviewcon",
+				"app\\Http\\Controllers\\ReviewsController.php"
+			],
+			[
+				"authnav",
+				"resources\\views\\layouts\\navigation\\auth-nav.blade.php"
+			],
+			[
+				"reviews",
+				"app\\Http\\Controllers\\ReviewsController.php"
+			],
+			[
+				"web.php",
+				"routes\\web.php"
+			],
+			[
+				"lessoncontroll",
+				"app\\Http\\Controllers\\LessonController.php"
+			],
+			[
+				"admin.blade",
+				"resources\\views\\admin\\admin.blade.php"
+			],
+			[
+				"home.blade",
+				"resources\\views\\home.blade.php"
+			],
+			[
+				"lessoncontroller",
+				"app\\Http\\Controllers\\LessonController.php"
+			],
+			[
+				"admincon",
+				"app\\Http\\Controllers\\AdminController.php"
+			],
+			[
+				"reviewcontrol",
+				"app\\Http\\Controllers\\ReviewsController.php"
+			],
+			[
+				"homena",
+				"resources\\views\\layouts\\navigation\\home-menu.blade.php"
+			],
+			[
+				"guesnav",
+				"resources\\views\\layouts\\navigation\\guest-nav.blade.php"
+			],
+			[
+				"guestnav",
+				"resources\\views\\layouts\\navigation\\guest-nav.blade.php"
+			],
+			[
+				"cardsscss",
+				"resources\\assets\\sass\\modules\\_cards.scss"
+			],
+			[
+				"reviewcontrl",
+				"app\\Http\\Controllers\\ReviewsController.php"
+			],
+			[
+				"reviewscontr",
+				"app\\Http\\Controllers\\ReviewsController.php"
+			],
+			[
+				"blogindex.blade",
+				"resources\\views\\blog\\index.blade.php"
+			],
+			[
+				"homemenu",
+				"resources\\views\\layouts\\navigation\\home-menu.blade.php"
+			],
+			[
+				"passes.js",
+				"public\\js\\test-passes.js"
+			],
+			[
+				"testcomponent",
+				"resources\\assets\\js\\components\\TestPassesComponent.vue"
+			],
+			[
+				"testps.j",
+				"public\\js\\test-passes.js"
+			],
+			[
+				"helpers.scss",
+				"resources\\assets\\sass\\modules\\_helpers.scss"
+			],
+			[
+				"area.blade",
+				"resources\\views\\areas\\area.blade.php"
+			],
+			[
+				"app.js",
+				"resources\\assets\\js\\app.js"
+			],
+			[
+				"navscss",
+				"resources\\assets\\sass\\modules\\_nav.scss"
+			],
+			[
+				"navbar.scss",
+				"node_modules\\bootstrap-sass\\assets\\stylesheets\\bootstrap\\_navbar.scss"
+			],
+			[
+				"masternav",
+				"resources\\views\\layouts\\navigation\\master-nav.blade.php"
+			],
+			[
+				"masterlayout",
+				"resources\\views\\layouts\\master-layout.blade.php"
+			],
+			[
+				"blog.scss",
+				"resources\\assets\\sass\\modules\\_blog.scss"
+			],
+			[
+				"webpack.mix",
+				"webpack.mix.js"
+			],
+			[
+				"webpack",
+				"webpack.mix.js"
+			],
+			[
+				"webpa",
+				"webpack.mix.js"
+			],
+			[
+				"prices.scss",
+				"resources\\assets\\sass\\modules\\_prices.scss"
+			],
+			[
+				"prices",
+				"resources\\views\\pages\\prices.blade.php"
+			],
+			[
+				"quizmenu",
+				"resources\\views\\quizzes\\quiz-menu.blade.php"
+			],
+			[
+				"quiztemplate",
+				"resources\\views\\quizzes\\quiz-template.blade.php"
+			],
+			[
+				"parking",
+				"public\\js\\quizzes\\parking-and-stopping-quiz.js"
+			],
+			[
+				"newquizcom",
+				"resources\\assets\\js\\components\\NewQuizComponent.vue"
+			],
+			[
+				"area.b",
+				"resources\\views\\areas\\area.blade.php"
+			],
+			[
+				"hero.scss",
+				"resources\\assets\\sass\\modules\\_hero.scss"
+			],
+			[
+				"sidcup.blade",
+				"resources\\views\\areas\\includes\\sidcup.blade.php"
+			],
+			[
+				"pettswood",
+				"resources\\views\\areas\\includes\\petts-wood.blade.php"
+			],
+			[
+				"grovepark",
+				"resources\\views\\areas\\includes\\grove-park.blade.php"
+			],
+			[
+				"mottingham",
+				"resources\\views\\areas\\includes\\mottingham.blade.php"
+			],
+			[
+				"leegreenbla",
+				"resources\\views\\areas\\includes\\lee-green.blade.php"
+			],
+			[
+				"bromley.blade",
+				"resources\\views\\areas\\includes\\bromley.blade.php"
+			],
+			[
+				"eltham.blade",
+				"resources\\views\\areas\\includes\\eltham.blade.php"
+			],
+			[
+				"groveparblad",
+				"resources\\views\\areas\\includes\\grove-park.blade.php"
+			],
+			[
+				"chislehurst.blade",
+				"resources\\views\\areas\\includes\\chislehurst.blade.php"
+			],
+			[
+				"kidbrooke.blade",
+				"resources\\views\\areas\\includes\\kidbrooke.blade.php"
+			],
+			[
+				"prices.blade",
+				"resources\\views\\pages\\prices.blade.php"
+			],
+			[
+				"testpasscomp",
+				"resources\\assets\\js\\components\\TestPassesComponent.vue"
+			],
+			[
+				"recommendationsblade",
+				"resources\\views\\pages\\recommendations.blade.php"
+			],
+			[
+				"testpasscom",
+				"resources\\assets\\js\\components\\TestPassesComponent.vue"
+			],
+			[
+				"signscompone",
+				"resources\\assets\\js\\components\\signsComponent.vue"
+			],
+			[
+				"testpassescomp",
+				"resources\\assets\\js\\components\\TestPassesComponent.vue"
+			],
+			[
+				"quizscss",
+				"resources\\assets\\sass\\modules\\_quiz.scss"
+			],
+			[
+				"quizMenu",
+				"resources\\views\\quizzes\\quiz-menu.blade.php"
+			],
+			[
+				"newquiz",
+				"resources\\assets\\js\\components\\NewQuizComponent.vue"
+			],
+			[
+				"quizcompone",
+				"resources\\assets\\js\\components\\QuizComponent.vue"
+			],
+			[
+				"quizcontroller",
+				"app\\Http\\Controllers\\quizController.php"
+			],
+			[
+				"homecontrller",
+				"app\\Http\\Controllers\\HomeController.php"
+			],
+			[
+				"recommenations.bl",
+				"resources\\views\\pages\\recommendations.blade.php"
+			],
+			[
+				"masterlayo",
+				"resources\\views\\layouts\\master-layout.blade.php"
+			],
+			[
+				"signs.blade",
+				"resources\\views\\signs\\show.blade.php"
+			],
+			[
+				"signscontroller",
+				"app\\Http\\Controllers\\signsController.php"
+			],
+			[
+				"lee-green",
+				"resources\\views\\areas\\includes\\lee-green.blade.php"
+			],
+			[
+				"kidbrooke",
+				"resources\\views\\areas\\includes\\kidbrooke.blade.php"
+			],
+			[
+				"grove-park",
+				"resources\\views\\areas\\includes\\grove-park.blade.php"
+			],
+			[
+				"mottingham.blade",
+				"resources\\views\\areas\\includes\\mottingham.blade.php"
+			],
+			[
+				"reset.blade",
+				"resources\\views\\vendor\\laravel-bulma-starter\\auth\\passwords\\reset.blade.php"
+			],
+			[
+				"authpasswordreset",
+				"resources\\views\\vendor\\laravel-bulma-starter\\auth\\passwords\\reset.blade.php"
+			],
+			[
+				"authregister",
+				"resources\\views\\vendor\\laravel-bulma-starter\\auth\\register.blade.php"
+			],
+			[
+				"register.blade",
+				"resources\\views\\auth\\register.blade.php"
+			],
+			[
+				"bromley",
+				"resources\\views\\tests\\routes\\bromley.blade.php"
+			],
+			[
+				"westwick",
+				"resources\\views\\tests\\routes\\west-wickham.blade.php"
+			],
+			[
+				"testsroutes",
+				"resources\\views\\tests\\routes.blade.php"
+			],
+			[
+				"authlogin",
+				"resources\\views\\vendor\\laravel-bulma-starter\\auth\\login.blade.php"
+			],
+			[
+				"loginblade",
+				"resources\\views\\auth\\login.blade.php"
+			],
+			[
+				"blogindex",
+				"resources\\views\\blog\\index.blade.php"
+			],
+			[
+				"signcontrol",
+				"app\\Http\\Controllers\\signsController.php"
+			],
+			[
+				"signs/show",
+				"resources\\views\\signs\\show.blade.php"
+			],
+			[
+				"signscontr",
+				"app\\Http\\Controllers\\signsController.php"
+			],
+			[
+				"quizzes.blade",
+				"resources\\views\\quizzes\\index.blade.php"
+			],
+			[
+				"contact.blade",
+				"resources\\views\\pages\\contact.blade.php"
+			],
+			[
+				"sidcupblade",
+				"resources\\views\\areas\\includes\\sidcup.blade.php"
+			],
+			[
+				"recommendatblade",
+				"resources\\views\\pages\\recommendations.blade.php"
+			],
+			[
+				"recommendations",
+				"public\\js\\recommendations.js"
+			],
+			[
+				"layoutmaster",
+				"resources\\views\\layouts\\master-layout.blade.php"
+			],
+			[
+				"blogscss",
+				"resources\\assets\\sass\\modules\\_blog.scss"
+			],
+			[
+				"lee.blade",
+				"resources\\views\\areas\\includes\\lee-green.blade.php"
+			],
+			[
+				"postcontrol",
+				"app\\Http\\Controllers\\PostController.php"
+			],
+			[
+				"appserv",
+				"app\\Providers\\AppServiceProvider.php"
+			],
+			[
+				"blogcreate",
+				"resources\\views\\blog\\create.blade.php"
+			],
+			[
+				"blogedit",
+				"resources\\views\\blog\\edit.blade.php"
+			],
+			[
+				"postcontro",
+				"app\\Http\\Controllers\\PostController.php"
+			],
+			[
+				"admincontroller",
+				"app\\Http\\Controllers\\AdminController.php"
+			],
+			[
+				"laravelbulmalogin",
+				"resources\\views\\vendor\\laravel-bulma-starter\\auth\\login.blade.php"
+			],
+			[
+				"login.blade",
+				"resources\\views\\auth\\login.blade.php"
+			],
+			[
+				"nav.blade",
+				"resources\\views\\layouts\\navigation\\guest-nav.blade.php"
+			],
+			[
+				"blogposts",
+				"resources\\views\\blog\\posts.blade.php"
+			],
+			[
+				"blogshow",
+				"resources\\views\\blog\\show.blade.php"
+			],
+			[
+				"bloginde",
+				"resources\\views\\blog\\index.blade.php"
+			],
+			[
+				"post",
+				"app\\Post.php"
+			],
+			[
+				"masterlayou",
+				"resources\\views\\layouts\\master-layout.blade.php"
+			],
+			[
+				"passcompon",
+				"resources\\assets\\js\\components\\TestPassesComponent.vue"
+			],
+			[
+				"menuscss",
+				"resources\\assets\\sass\\modules\\_menus.scss"
+			],
+			[
+				"footer.blade",
+				"resources\\views\\layouts\\footer.blade.php"
+			],
+			[
+				"allsorts",
+				"resources\\assets\\sass\\modules\\_allsorts.scss"
+			],
+			[
+				"text-books",
+				"resources\\views\\text-books\\index.blade.php"
+			],
+			[
+				"routeshither",
+				"resources\\views\\tests\\routes\\hither-green.blade.php"
+			],
+			[
+				"routessidcup",
+				"resources\\views\\tests\\routes\\sidcup.blade.php"
+			],
+			[
+				"routesbromle",
+				"resources\\views\\tests\\routes\\bromley.blade.php"
+			],
+			[
+				"westwich",
+				"resources\\views\\tests\\routes\\west-wickham.blade.php"
+			],
+			[
+				"sidcup",
+				"resources\\views\\tests\\routes\\sidcup.blade.php"
+			],
+			[
+				"hither-",
+				"resources\\views\\tests\\routes\\hither-green.blade.php"
+			],
+			[
+				"testroutecontro",
+				"app\\Http\\Controllers\\TestRouteController.php"
+			],
+			[
+				"routes",
+				"resources\\views\\tests\\routes.blade.php"
+			],
+			[
+				"sidcu",
+				"resources\\views\\tests\\routes\\sidcup.blade.php"
+			],
+			[
+				"hither",
+				"resources\\views\\tests\\routes\\hither-green.blade.php"
+			],
+			[
+				"west-wi",
+				"resources\\views\\tests\\routes\\west-wickham.blade.php"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 625.0,
+		"height": 624.8,
 		"last_filter": "",
 		"selected_items":
 		[
 			[
 				"",
-				"C:\\wamp64\\www\\sitepages\\adam-ellis\\site\\adam_ellis.sublime-project"
+				"C:\\wamp64\\www\\sitepages\\commons_chislehurst\\wordpress\\wp-content\\themes\\chislehurstcommons\\chis-commons.sublime-project"
+			],
+			[
+				"dvd",
+				"C:\\wamp64\\www\\portfolio_2019\\dvd-app\\dvd-app\\dvd-app.sublime-project"
 			]
 		],
-		"width": 475.0
+		"width": 475.2
 	},
 	"select_symbol":
 	{
@@ -2417,7 +972,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 308.0,
+	"side_bar_width": 385.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
