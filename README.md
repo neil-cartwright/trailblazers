@@ -8,5 +8,4 @@ It's built with HTML, CSS, and Javascript (JQuery)
 Neil Cartwright
 
 ## Website
-
-[trailblazers.sitepages.co.uk](trailblazers.sitepages.co.uk)
+trailblazers.sitepages.co.uk
